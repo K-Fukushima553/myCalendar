@@ -54,7 +54,7 @@ function getCalenderBody(){
   }
 
   if(year === today.getFullYear() && month === today.getMonth()){
-    dates[today.getDay() - 1].isToday = true;
+    dates[today.getDate() - 1].isToday = true;
   }
 
   return dates;
